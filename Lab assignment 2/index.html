@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="Profile photo" class="profile" />
+    <p>Hello! My name is Nakshatra Aggarwal. I am learning web development and this is my first portfolio website.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr><th>Skill</th><th>Level</th></tr>
+      <tr><td>HTML</td><td>Beginner</td></tr>
+      <tr><td>CSS</td><td>Beginner</td></tr>
+      <tr><td>JavaScript</td><td>Learning</td></tr>
+    </table>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <a href="basic-html" target="_blank" class="project-link">
+      <div class="project">
+        <h3>Basic HTML</h3>
+        <p>A one-page example showing basic HTML structure.</p>
+      </div>
+    </a>
+    <a href="basic-css" target="_blank" class="project-link">
+      <div class="project">
+        <h3>Basic CSS</h3>
+        <p>A one-page demo showing how CSS works with a button alert.</p>
+      </div>
+    </a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <a href="#top">↑ Back to Top</a>
+  </footer>
+</body>
+</html>
